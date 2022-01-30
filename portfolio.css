@@ -1,0 +1,323 @@
+
+
+.styleul{
+    list-style-type: none;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+}
+nav{
+    position: fixed;
+}
+nav li{
+    float: left;
+}
+
+nav li a {
+    color: navajowhite;
+    text-decoration: none;
+    padding: 15px 15px;
+    display: block;
+}
+
+nav li a:hover{
+    background-color: dimgrey;
+}
+.homepage{
+    background-image: url("csss.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hrstext{
+    color: slategrey;
+    text-align: center;
+    font-size: 28px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.buttonhr{
+    background-color: grey;
+    width: 60%;
+    padding: 14px 20px;
+    border-radius: 12px;
+
+}
+
+.center{
+    text-align: center;
+}
+
+nav , section{
+    margin: 3px;
+    padding: 2px;
+}
+
+.flexbox{
+    display: flex;
+}
+
+#about p {
+    border: 2px solid darkgoldenrod;
+    margin: 5px;
+    padding: 15px;
+    width: auto;
+    length: auto;
+}
+
+.flex-contain{
+    display: flex;
+}
+
+.flex-contain > div{
+    padding: 3px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+
+}
+
+.flexbox >img {
+    border-radius: 50%;
+}
+
+#gallery img {
+    border-radius: 50%;
+}
+
+.flexbox >div{
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+.container{
+    background-color: greenyellow;
+    padding: 30px;
+    border-radius: 6px;
+
+}
+
+.row:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.col-20 {
+    width: 20%;
+    margin-top: 6px;
+    float: left;
+}
+
+.col-80 {
+    width: 80%;
+    margin-top: 6px;
+    float: left;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid red;
+}
+
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.btnsubmit{
+    width: 25%;
+    float: right;
+    padding: 8px 8px;
+    background-color: darkgoldenrod;
+    border: none;
+    border-radius: 5px;
+}
+
+.btnsubmit:hover{
+    background-color: red;
+
+}
+
+.background{
+    background-image: url("images/malkiapng.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.container-fluid{
+    text-align: center;
+
+}
+
+span{
+    font-size: 30px;
+}
+
+footer{
+    background: grey;
+    color: white;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+
+}
+
+
+
+.styleul{
+    list-style-type: none;
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+}
+nav{
+    position: fixed;
+}
+nav li{
+    float: left;
+}
+
+nav li a {
+    color: tomato;
+    text-decoration: none;
+    padding: 15px 15px;
+    display: block;
+}
+
+nav li a:hover{
+    background-color: darkgoldenrod;
+}
+.homepage{
+    background-image: url("csss.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hrstext{
+    color: red;
+    text-align: center;
+    font-size: 28px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.buttonhr{
+    background-color: darkgoldenrod;
+    width: 60%;
+    padding: 14px 20px;
+    border-radius: 12px;
+
+}
+
+.center{
+    text-align: center;
+}
+
+nav , section{
+    margin: 3px;
+    padding: 2px;
+}
+
+.flexbox{
+    display: flex;
+}
+
+#about p {
+    border: 2px solid darkgoldenrod;
+    margin: 5px;
+    padding: 15px;
+    width: auto;
+    length: auto;
+}
+
+.flex-contain{
+    display: flex;
+}
+
+.flex-contain > div{
+    padding: 3px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+
+}
+
+.flexbox >img {
+    border-radius: 50%;
+}
+
+#gallery img {
+    border-radius: 50%;
+}
+
+.flexbox >div{
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+.container{
+    background-color: grey;
+    padding: 30px;
+    border-radius: 6px;
+
+}
+
+.row:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.col-20 {
+    width: 20%;
+    margin-top: 6px;
+    float: left;
+}
+
+.col-80 {
+    width: 80%;
+    margin-top: 6px;
+    float: left;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid red;
+}
+
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.btnsubmit{
+    width: 25%;
+    float: right;
+    padding: 8px 8px;
+    background-color: darkgoldenrod;
+    border: none;
+    border-radius: 5px;
+}
+
+.btnsubmit:hover{
+    background-color: red;
+
+}
